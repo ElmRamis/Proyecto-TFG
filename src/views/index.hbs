@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OPW</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.5.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/Estilo.css">
+    <link rel="stylesheet" href="/css/Estilo2.css" />
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <!-- Popper.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="/js/scriptV2.js" defer></script>
+  </head>
+  <body class="simplicity">
+    <header style="background: url('Images/ImagenHeader.jpg') no-repeat center center/cover;">
+      {{> navigation}}
+      <div class="hero">
+          <div class="hero-content">
+              <h1>QUALITY, <em>SIMPLICITY</em> AND ELEGANCE</h1>
+              <p>Our projects are developed around a <em>contemporary</em> understanding of <em>luxury</em>. We focus on spatial quality, relaxed sophistication, timeless elegance, engineering precision, and the beauty of simplicity.</p>
+          </div>
+      </div>
+  </header>
+    <section class="projects">
+      <section class="project-intro">
+        <div class="project-list">
+          <h2 id="houses-villas">DISCOVER OUR <span>PROJECTS</span></h2>
+          <nav class="project-nav">
+              <ul>
+                  <li><a href="#SantLluis17">SantLluis 17</a></li>
+                  <li><a href="#Terreno">Terreno</a></li>
+                  <li><a href="#">Buildings</a></li>
+                  <li><a href="#">Corporate</a></li>
+                  <li><a href="#">All Projects</a></li>
+              </ul>
+          </nav>
+      </div>
+      </section>
+        <section class="si">
+            <div class="project-detail" id="SantLluis17">
+                <div class="project-info">
+                    <h3>SantLluis</h3>
+                    <p>Indulge in our projects inspired by the Mediterranean way of living and a contemporary understanding of luxury.</p>
+                    <button onclick="window.location.href='/santlluis17'">VIEW IN DETAIL</button>
+                </div>
+                <div class="container" id="slider1">
+                    <div class="slider-wrapper">
+                      <button class="slide-button material-symbols-rounded prev-slide">chevron_left</button>
+                      <ul class="image-list">
+                        <img class="image-item" src="/images/ImagenHouse1.jpg" alt="img-1" />
+                        <img class="image-item" src="/images/ImagenHouse2.png" alt="img-2" />
+                        <img class="image-item" src="/images/ImagenHouse3.png" alt="img-3" />
+                      </ul>
+                      <button class="slide-button material-symbols-rounded next-slide">chevron_right</button>
+                    </div>
+                    <div class="slider-scrollbar">
+                      <div class="scrollbar-track">
+                        <div class="scrollbar-thumb"></div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </section>
+        <section class="si">
+            <div class="project-detail" id="Terreno">
+                <div class="project-info">
+                    <h3>El Terreno</h3>
+                    <p>Indulge in our projects inspired by the Mediterranean way of living and a contemporary understanding of luxury.</p>
+                    <button onclick="window.location.href='/elterreno'">VIEW IN DETAIL</button>
+                </div>
+                <div class="container" id="slider2">
+                    <div class="slider-wrapper">
+                      <button class="slide-button material-symbols-rounded prev-slide">chevron_left</button>
+                      <ul class="image-list">
+                        <img class="image-item" src="/images/Terreno/Terreno1.webp" alt="img-1" />
+                        <img class="image-item" src="/images/Terreno/Terreno2.webp" alt="img-2" />
+                        <img class="image-item" src="/images/Terreno/Terreno3.webp" alt="img-3" />
+                      </ul>
+                      <button class="slide-button material-symbols-rounded next-slide">chevron_right</button>
+                    </div>
+                    <div class="slider-scrollbar">
+                      <div class="scrollbar-track">
+                        <div class="scrollbar-thumb"></div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </section>
+        <section class="si">
+            <div class="project-detail" id="Terreno">
+                <div class="project-info">
+                    <h3>Dos Villas</h3>
+                    <p>Indulge in our projects inspired by the Mediterranean way of living and a contemporary understanding of luxury.</p>
+                    <button onclick="window.location.href='/dosdemayo'">VIEW IN DETAIL</button>
+                </div>
+                <div class="container" id="slider2">
+                    <div class="slider-wrapper">
+                      <button class="slide-button material-symbols-rounded prev-slide">chevron_left</button>
+                      <ul class="image-list">
+                        <img class="image-item" src="/images/02-DosdeMayo/MCM_VILLA_0001.jpg" alt="img-1" />
+                        <img class="image-item" src="/images/02-DosdeMayo/MCM_VILLA_0002.jpg" alt="img-2" />
+                        <img class="image-item" src="/images/02-DosdeMayo/MCM_VILLA_0003.jpg" alt="img-3" />
+                      </ul>
+                      <button class="slide-button material-symbols-rounded next-slide">chevron_right</button>
+                    </div>
+                    <div class="slider-scrollbar">
+                      <div class="scrollbar-track">
+                        <div class="scrollbar-thumb"></div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </section>
+        <section class="si">
+            <div class="project-detail" id="Terreno">
+                <div class="project-info">
+                    <h3>Dos Villas</h3>
+                    <p>Indulge in our projects inspired by the Mediterranean way of living and a contemporary understanding of luxury.</p>
+                    <button onclick="window.location.href='/josepvillalonga'">VIEW IN DETAIL</button>
+                </div>
+                <div class="container" id="slider2">
+                    <div class="slider-wrapper">
+                      <button class="slide-button material-symbols-rounded prev-slide">chevron_left</button>
+                      <ul class="image-list">
+                        <img class="image-item" src="/images/03-JoseVillalonga/03-JoseVillalonga.jpg" alt="img-1" />
+                        <img class="image-item" src="/images/03-JoseVillalonga/04-JoseVillalonga.jpg" alt="img-2" />
+                        <img class="image-item" src="/images/03-JoseVillalonga/06-JoseVillalonga.jpg" alt="img-3" />
+                      </ul>
+                      <button class="slide-button material-symbols-rounded next-slide">chevron_right</button>
+                    </div>
+                    <div class="slider-scrollbar">
+                      <div class="scrollbar-track">
+                        <div class="scrollbar-thumb"></div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </section>
+    <main> 
+        <section id="projects">
+            <h2>Contemporary Design</h2>
+            <p>We create contemporary Architecture & Interiors designs focusing on excellence, comfort, luxury, and wellbeing.</p>
+            <br>
+        </section>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Our design philosophy includes respect for nature, devotion to fine materials, and balancing technology with craftsmanship.</p>
+            <br>
+        </section>
+        <section id="services">
+            <h2>Our Services</h2>
+            <p>Achieving the best results through expert combination of professionals for maximum efficiency, quality, and value.</p>
+            <br>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Based in Mallorca Palma</p>
+            <br>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 OCEAN. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,246 @@
+<main class="container p-4">
+    {{> messages}}
+    {{> errors}}
+
+
+    <div class="card my-4 p-4">
+        <h1 class="mb-4">Proyecto de Arquitectura</h1>
+
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <h3>Planos del Proyecto</h3>
+                <p>Haz clic en cada plano para visualizarlo:</p>
+                <div class="list-group">
+                    <div class="list-group">
+                        <a href="#" class="list-group-item list-group-item-action" data-toggle="modal" data-target="#plano1Modal">
+                            Plano 1 - Villa 1 56D
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action" data-toggle="modal" data-target="#plano2Modal">
+                            Plano 2 - Villa 2 56C
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action" data-toggle="modal" data-target="#plano3Modal">
+                            Plano 3 - Villa 3 56B
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action" data-toggle="modal" data-target="#plano4Modal">
+                            Plano 4 - Villa 4 56A
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action" data-toggle="modal" data-target="#plano5Modal">
+                            Plano 5 - Villa 5 56
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action" data-toggle="modal" data-target="#plano6Modal">
+                            Plano 6 - Villa 6 19
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action" data-toggle="modal" data-target="#plano7Modal">
+                            Plano 7 - Villa 7 19A
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action" data-toggle="modal" data-target="#plano8Modal">
+                            Plano 8 - Villa 8 19B
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action" data-toggle="modal" data-target="#plano9Modal">
+                            Plano 9 - Villa 9 19C
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action" data-toggle="modal" data-target="#plano10Modal">
+                            Plano 10 - Villa 10 19D
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 mb-4">
+                <h3>Especificaciones del Proyecto</h3>
+                <p>Haz clic en el botón para ver el documento completo:</p>
+                <button class="btn btn-primary" data-toggle="modal" data-target="#specificationsModal">
+                    Ver Especificaciones
+                </button>
+            </div>
+        </div>
+
+        <!-- Modal para visualizar un plano -->
+        <!-- Modal para visualizar el Plano 1 -->
+        <div class="modal fade" id="plano1Modal" tabindex="-1" aria-labelledby="plano1ModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="plano1ModalLabel">Plano 1 - Villa 1 56D</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <embed src="Images/Terreno/Planos/House 1 _ 56D.pdf" type="application/pdf" width="100%" height="600px" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal para visualizar el Plano 2 -->
+        <div class="modal fade" id="plano2Modal" tabindex="-1" aria-labelledby="plano2ModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="plano2ModalLabel">Plano 2 - Villa 2 56C</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <embed src="Images/Terreno/Planos/House 2 _ 56C.pdf" type="application/pdf" width="100%" height="600px" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal para visualizar el Plano 3 -->
+        <div class="modal fade" id="plano3Modal" tabindex="-1" aria-labelledby="plano3ModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="plano3ModalLabel">Plano 3 - Villa 3 56B</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <embed src="Images/Terreno/Planos/House 3 _ 56B.pdf" type="application/pdf" width="100%" height="600px" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal para visualizar el Plano 4 -->
+        <div class="modal fade" id="plano4Modal" tabindex="-1" aria-labelledby="plano4ModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="plano4ModalLabel">Plano 4 - Villa 4 56A</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <embed src="Images/Terreno/Planos/House 4 _ 56A.pdf" type="application/pdf" width="100%" height="600px" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal para visualizar el Plano 5 -->
+        <div class="modal fade" id="plano5Modal" tabindex="-1" aria-labelledby="plano5ModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="plano5ModalLabel">Plano 5 - Villa 5 56</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <embed src="Images/Terreno/Planos/House 5 _ 56 .pdf" type="application/pdf" width="100%" height="600px" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal para visualizar el Plano 6 -->
+        <div class="modal fade" id="plano6Modal" tabindex="-1" aria-labelledby="plano6ModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="plano6ModalLabel">Plano 6 - Villa 6 19</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <embed src="Images/Terreno/Planos/House 6 _ 19 .pdf" type="application/pdf" width="100%" height="600px" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal para visualizar el Plano 7 -->
+        <div class="modal fade" id="plano7Modal" tabindex="-1" aria-labelledby="plano7ModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="plano7ModalLabel">Plano 7 - Villa 7 19A</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <embed src="Images/Terreno/Planos/House 7 _ 19 A .pdf" type="application/pdf" width="100%" height="600px" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal para visualizar el Plano 8 -->
+        <div class="modal fade" id="plano8Modal" tabindex="-1" aria-labelledby="plano8ModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="plano8ModalLabel">Plano 8 - Villa 8 19B</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <embed src="Images/Terreno/Planos/House 8 _ 19B.pdf" type="application/pdf" width="100%" height="600px" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal para visualizar el Plano 9 -->
+        <div class="modal fade" id="plano9Modal" tabindex="-1" aria-labelledby="plano9ModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="plano9ModalLabel">Plano 9 - Villa 9 19C</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <embed src="Images/Terreno/Planos/House 9 _ 19C .pdf" type="application/pdf" width="100%" height="600px" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal para visualizar el Plano 10 -->
+        <div class="modal fade" id="plano10Modal" tabindex="-1" aria-labelledby="plano10ModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="plano10ModalLabel">Plano 10 - Villa 10 19D</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <embed src="Images/Terreno/Planos/House 10 _ 19D .pdf" type="application/pdf" width="100%" height="600px" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal para visualizar las especificaciones -->
+        <div class="modal fade" id="specificationsModal" tabindex="-1" aria-labelledby="specificationsModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="specificationsModalLabel">Especificaciones del Proyecto</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <embed src="Images/Terreno/Specs/Building Specs 6_2021.pdf" type="application/pdf" width="100%" height="600px" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>

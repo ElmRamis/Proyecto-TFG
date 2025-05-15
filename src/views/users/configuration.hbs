@@ -1,0 +1,38 @@
+<h1 class="mb-4">Configuration for {{user.name}}</h1>
+
+<!-- Formulario para actualizar la información del usuario -->
+<form action="/users/update" method="POST" class="mb-4">
+    <input type="hidden" name="id" value="{{user._id}}">
+
+    <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" class="form-control" value="{{user.email}}" required>
+    </div>
+
+    <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" class="form-control" value="{{user.name}}" required>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Update Info</button>
+</form>
+
+<!-- Formulario para cambiar la contraseña -->
+<form action="/users/change-password" method="POST">
+    <div class="form-group">
+        <label for="currentPassword">Current Password:</label>
+        <input type="password" name="currentPassword" id="currentPassword" class="form-control" required>
+    </div>
+
+    <div class="form-group">
+        <label for="newPassword">New Password:</label>
+        <input type="password" name="newPassword" id="newPassword" class="form-control" required>
+    </div>
+
+    <div class="form-group">
+        <label for="confirmNewPassword">Confirm New Password:</label>
+        <input type="password" name="confirmNewPassword" id="confirmNewPassword" class="form-control" required>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Change Password</button>
+</form>

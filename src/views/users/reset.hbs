@@ -1,0 +1,22 @@
+<style>
+    .containers {
+            max-width: 700px;
+            margin-top: 50px;
+            padding: 30px;
+            background-color: white;
+            border-radius: 10px;
+        }
+</style>
+<div class="containers">
+    <form action="/users/reset/{{token}}" method="POST">
+    <div class="form-group">
+        <label for="newPassword">New Password</label>
+        <input type="password" class="form-control" id="newPassword" name="newPassword" required>
+    </div>
+    <div class="form-group">
+        <label for="confirmNewPassword">Confirm New Password</label>
+        <input type="password" class="form-control" id="confirmNewPassword" name="confirmNewPassword" required>
+    </div>
+    <button type="submit" class="btn btn-primary">Reset Password</button>
+</form>
+</div>
