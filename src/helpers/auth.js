@@ -9,7 +9,7 @@ helpers.isAuthenticated = (req, res, next) => {
 };
 
 helpers.isAdmin = (req, res, next) => {
-    if (req.isAuthenticated() && req.user.email === 'ADMIN@OPW.es') {
+    if (req.isAuthenticated() && req.user.email === 'ADMIN@TFG.es') {
         return next();
     }
     req.flash('error_msg', 'Not Authorized as Admin');
